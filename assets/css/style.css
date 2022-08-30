@@ -176,7 +176,7 @@ body {
   #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 15px; }
+.container { padding-inline: 5px; }
 
 .section { padding-block: var(--section-padding); }
 

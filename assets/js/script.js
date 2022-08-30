@@ -80,3 +80,15 @@ $(document).ready(function(){
       $(this).addClass("active-filter").siblings().removeClass("active-filter");
   })
 });
+
+// const openNav = document.querySelector(".open-btn");
+// const closeNav = document.querySelector(".close-btn");
+// const menu = document.querySelector(".drop-menu2");
+
+// openNav.addEventListener("click", () => {
+//   menu.classList.add("show");
+// });
+
+// closeNav.addEventListener("click", () => {
+//   menu.classList.remove("show");
+// });
