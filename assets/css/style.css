@@ -38,6 +38,7 @@
   --black: hsl(0, 0%, 0%);
   --onyx: hsl(240, 5%, 26%);
   --jet: hsl(0, 0%, 21%);
+  --buy: hsl(138, 100%, 50%);
 
   /**
    * gradient
@@ -51,8 +52,8 @@
 
   --ff-dm-sans: 'Noto Sans Lao', 'DM Sans', sans-serif;
 
-  --fs-1: 4rem;
-  --fs-2: 3.5rem;
+  --fs-1: 3.5rem;
+  --fs-2: 3rem;
   --fs-3: 2.4rem;
   --fs-4: 2.2rem;
   --fs-5: 2rem;
@@ -879,9 +880,9 @@ body {
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus) { color: var(--mustard); }
+.footer-link:is(:hover, :focus) { color: var(--mustard); transform: translateX(5px);}
 
-.insta-post {
+/* .insta-post {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -905,7 +906,7 @@ body {
   transition: var(--transition-1);
 }
 
-.insta-card:is(:hover, :focus-within) .card-content { opacity: 1; }
+.insta-card:is(:hover, :focus-within) .card-content { opacity: 1; } */
 
 .footer-bottom {
   color: var(--white);
